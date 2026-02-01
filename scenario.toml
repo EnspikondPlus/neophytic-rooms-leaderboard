@@ -4,7 +4,7 @@ env = { LOG_LEVEL = "INFO" }
 
 [[participants]]
 name = "solver"
-agentbeats_id = ""
+agentbeats_id = "019c17b4-55c0-7962-b7fc-3342d89b6b4f"
 env = {}
 
 [config]
