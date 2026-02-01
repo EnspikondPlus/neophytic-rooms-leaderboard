@@ -1,0 +1,21 @@
+[green_agent]
+agentbeats_id = "019c17a8-ffcd-7192-95b6-6d486951a162"
+env = { LOG_LEVEL = "INFO" }
+
+[[participants]]
+name = "solver"
+agentbeats_id = "019c17b4-55c0-7962-b7fc-3342d89b6b4f"
+env = {}
+
+[config]
+generate = true
+count = 5
+
+difficulty = "tutorial"
+no_loops = true
+
+steps_remaining = 30
+obs_inspect_weight = 3.0
+failure_show = true
+failure_consequence = 0.0
+commit_reset = true
