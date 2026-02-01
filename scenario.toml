@@ -1,16 +1,21 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019c17a8-ffcd-7192-95b6-6d486951a162"
+env = { LOG_LEVEL = "INFO" }
 
 [[participants]]
+name = "solver"
 agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
 env = {}
 
 [config]
-# Add your assessment config here
+generate = true
+count = 5
+
+difficulty = "tutorial"
+no_loops = true
+
+steps_remaining = 30
+obs_inspect_weight = 3.0
+failure_show = true
+failure_consequence = 0.0
+commit_reset = true
